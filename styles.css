@@ -1,0 +1,152 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  .arul{
+    font-size: 48px;
+  text-align:left;
+  color: white;
+  font-weight: bold;
+  }
+  h1, h2 {
+    text-align: center;
+    color: #005f99;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  a {
+    color: #005f99;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .header-container, .about-container, .projects-container, .skills-container, .contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+
+  header {
+    background-color: #005f99;
+    color: white;
+    padding: 50px 0;
+  }
+  
+  header h1 {
+    font-size: 48px;
+  }
+  
+  header p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+
+  #about {
+    padding: 50px;
+    background-color: #fff;
+  }
+  
+  .about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .about-container p {
+    max-width: 500px;
+  }
+  
+  .about-container img {
+    border-radius: 50%;
+    max-width: 200px;
+  }
+  
+ 
+  #skills {
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  #skills ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  #skills li {
+    background-color: #005f99;
+    color: white;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  
+  #projects {
+    padding: 50px;
+    background-color: #fff;
+  }
+  
+  .projects-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .project {
+    background-color: #f4f4f4;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .project h3 {
+    margin-top: 10px;
+  }
+  
+  
+  #resume {
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+ 
+  #contact {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  #contact p {
+    margin: 10px 0;
+  }
+  
+  
+  footer {
+    background-color: #005f99;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
